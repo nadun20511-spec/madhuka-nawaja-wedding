@@ -1,0 +1,58 @@
+MADHUKA & NAWAJA — SONG එක සහ PHOTOS දාගන්න විදිහ
+
+පළමුව ZIP එක Extract All කරන්න. ZIP එක ඇතුළෙන්ම index.html open නොකරන්න.
+
+1. එක shared song එකක් දාන්න
+
+- ඔබගේ MP3 file එක music folder එකට copy කර song.mp3 ලෙස නම් කරන්න.
+- config.js file එක Notepad හෝ text editor එකකින් open කරන්න.
+- music line එක මෙහෙම වෙනස් කරන්න:
+
+  music: { src: 'music/song.mp3', title: 'Our wedding song' }
+
+- Save කරන්න. index.html browser එකෙන් නැවත open/refresh කරන්න.
+- Visitorsලාට වෙනත් song තෝරන්න බැහැ. ඔබ දාපු එකම song එක play/pause කරන්න පුළුවන්.
+- Browser එකේ audio permission නිසා Open invitation click කළ පසුව music play වේ.
+  එය නතර වුණොත් Music button එකේ player එකෙන් Play ඔබන්න.
+- M4A file එකක් නම් filename එක song.m4a ලෙසත් src එක music/song.m4a ලෙසත් දාන්න.
+- Song එකක් තවම දාලා නැති නිසා මෙම ZIP එකේ Music button එක සඟවා ඇත.
+
+2. Photos පහක් දාන්න
+
+- Photos folder එකට photos පහ copy කරන්න.
+- JPG photos නම් photo-1.jpg, photo-2.jpg, photo-3.jpg, photo-4.jpg, photo-5.jpg ලෙස නම් කරන්න.
+- config.js එකේ gallery: [] වෙනුවට මේ කොටස දාන්න. අවසානයේ comma එක තබන්න:
+
+  gallery: [
+    { src: 'photos/photo-1.jpg', alt: 'Our photo 1' },
+    { src: 'photos/photo-2.jpg', alt: 'Our photo 2' },
+    { src: 'photos/photo-3.jpg', alt: 'Our photo 3' },
+    { src: 'photos/photo-4.jpg', alt: 'Our photo 4' },
+    { src: 'photos/photo-5.jpg', alt: 'Our photo 5' }
+  ],
+
+- File එක ඇත්තටම PNG නම් .png extension එකම තබා config එකේත් .png ලෙස දාන්න.
+- Save කර browser එක refresh කරන්න. Photo එකක් click කළාම විශාල කර බලන්න පුළුවන්.
+
+3. Live link එකට දාන්න
+
+- ඔබ download කළ files edit කළාම දැනට පවතින live link එක ස්වයංක්‍රීයව වෙනස් වෙන්නේ නැහැ.
+- Song එක සහ photos මෙතැන chat එකට upload කරන්න, නැත්නම් ඔබ වෙනස් කළ website folder එක ZIP කර එවන්න.
+  එවිට දැනට ඇති live invitation එක update කරන්න පුළුවන්.
+- ඔබ වෙනත් hosting සේවාවක් භාවිතා කරනවා නම් index.html සහ අනෙක් සියලු files/folders එකම folder structure එකෙන් upload කරන්න.
+- config.js එකේ email address සහ siteUrl අනවශ්‍යව වෙනස් නොකරන්න.
+
+4. RSVP
+
+- Recipient: nadun20511@gmail.com
+- RSVP email සඳහා internet අවශ්‍යයි. FormSubmit activation email එක recipient විසින් එක් වරක් confirm කළ යුතුයි.
+- Local file එකෙන් RSVP දාන්න නම් එහි online RSVP link එක භාවිතා කරන්න.
+- Inbox delivery තවම තහවුරු කර නැහැ.
+
+5. Logo සහ animation
+
+- Website එකේ logo එකේ cream box එක නොපෙනීමට blend treatment එකක් තිබේ.
+- Image tool usage limit නිසා සැබෑ transparent PNG එකක් generate කර නැහැ; mn-logo.jpg මුල් source එකයි.
+- Hearts animation එක reduced-motion setting එකක් ඇති devices වල නවතී.
+
+සටහන: config.js edit කරන විට JavaScript quotes, brackets සහ commas මකන්න එපා.
